@@ -46,7 +46,8 @@ export default {
       }
       this.todos.push({
         text:text,
-        done:false
+        done:false,
+        editing:false
       });
       this.newTodo = '';
     },
